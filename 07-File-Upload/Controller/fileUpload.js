@@ -171,7 +171,7 @@ exports.imageReducer = async (req, res) => {
         }
 
         // Upload to Cloudinary
-        // HW - Decrease size by height and width 
+       
         const response = await uploadFileToCloudinary(imageFile, "FileApp", 50);
         console.log(response)
 
